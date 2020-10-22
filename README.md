@@ -26,17 +26,17 @@ Esse site foi desenvolvido e disponibilizado especialmente para praticar web scr
 
 ## Solução:
 
-- [] Criar um web scraper, usando Python.
-- [] Utilizar o selenium para navegar entre as categorias e páginas.
-- [] Utilizar a biblioteca BeautifulSoup do Python para coletar os dados.
-- [] Configurar um banco de dados postgres.
-- [] Agendar um script para rodar todos os dias no mesmo horário. (Não tem problema armazenar dados repetidos).
-- [] Garantir que o script lide com erros e não pare de funcionar por qualquer problema (internet lenta, página não encontrada, objeto não carregado, etc).
+- [ ] Criar um web scraper, usando Python.
+- [ ] Utilizar o selenium para navegar entre as categorias e páginas.
+- [ ] Utilizar a biblioteca BeautifulSoup do Python para coletar os dados.
+- [ ] Configurar um banco de dados postgres.
+- [ ] Agendar um script para rodar todos os dias no mesmo horário. (Não tem problema armazenar dados repetidos).
+- [ ] Garantir que o script lide com erros e não pare de funcionar por qualquer problema (internet lenta, página não encontrada, objeto não carregado, etc).
 
 ## Extras:
-- [] Modularizar a solução.
+- [ ] Modularizar a solução.
   - Script -> scraper -> csv
   - Script -> load_db -> csv -> postgres
-- [] Sincronizar os dois scripts.
-- [] Gerenciamento de jobs usando Airflow. Um script só pode rodar quando o outro terminar.
-- [] Paralelizar o script de coleta, cada um coleta e armazena dados de uma página.
+- [ ] Sincronizar os dois scripts.
+- [ ] Gerenciamento de jobs usando Airflow. Um script só pode rodar quando o outro terminar.
+- [ ] Paralelizar o script de coleta, cada um coleta e armazena dados de uma página.
